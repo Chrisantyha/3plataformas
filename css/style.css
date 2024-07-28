@@ -1,0 +1,112 @@
+/* :root{
+    --primary: hsl(215, 51%, 70%);
+    --secundary: hsl(178, 100%, 50%);
+    --bg-main: hsl(217, 54%, 11%);
+    --bg-card: hsl(216, 50%, 16%);
+    --bg-line: hsl(215, 32%, 27%);
+    --bg-withe: hsl(0, 0%, 100%);
+    --font-body: font-amily: // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    .outfit-<uniquifier> {
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+}
+
+body{
+    margin: 0;
+    font-family: var(--font-body);
+    background-color: var(--bg-main);
+    color:var(--primary)
+    
+}
+.container{
+  border: 4px red;
+}
+.card{
+  border: 1px green;
+}
+.card-body{
+  border: 1px #adaf11;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  width: 250px;
+  background-color: var(--bg-card);
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.card-img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card-title{
+  color: var(--secundary);
+  font-size: 18px;
+  margin: 10px 0;
+
+}
+
+.card-img:hover{
+  opacity: 10%;
+  
+} */
+
+.box {
+  border: 3px solid green;
+  width: 150px;
+  height: 150px;
+  overflow: auto;
+}
+
+nav{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav > div{
+  position: relative;
+
+  background-color: #bb0909;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav > div > div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #13f189;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav{
+  position: sticky;
+  top: 25px;
+}
+
+
